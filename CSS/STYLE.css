@@ -28,14 +28,14 @@
 {
 	width: 100%;
 	height: 80px;
-	background-color: #f45051;
+	background-color: #e53030;
 	color: #FFFFFF;
 	position: relative;
 }
 .top_bar .sword 
 { 
 	height: 45px; 
-	padding: 8px 0px 0 150px;
+	padding: 8px 0px 0 100px;
 	margin-top: 15px; 
 	margin-right: 5px;
 	float: left;
@@ -64,12 +64,40 @@
 	position: relative;
 	float: right;
 }
-.lights1
+.component
 {	
 	padding: 0 10px;
 	float: left;
 	text-transform: uppercase;
 }
+
+/* Start Navigation bar */ 
+.house
+{
+	height: 70px;
+	margin-left: 80px;
+	margin-right: -35px;
+	float: left;
+}
+nav{ background-color: #fbf2d3; height: 75px; }
+ul {
+    overflow: hidden;
+    margin: 0px 40px;
+    font-family: Arial ;
+    font-weight: bold;
+    line-height: 45px;
+}
+li  
+{
+	float: left;
+    display: block;
+    color: #c3b99a;
+    text-align: center;
+    padding: 14px 28px;
+    font-size: 15px;
+}
+/* //////////////////////////////////////////////// */
+
 .bar
 {
 	width: 100%;
@@ -83,16 +111,30 @@
 .welcome
 {
 	float: left;
-	margin-left: 80px;
+	margin-left: 100px;
 }
 .contact
 {}
-.left {margin-left: 350px;}
+.left {margin-left: 300px;}
 .wifi 
 {
-	height: 15px;
+	height: 13px;
 	margin-top: 30px;
-	margin-right: 15px;
+	margin-right: 10px;
+	float: left;
+}
+.facebook
+{
+	height: 25px;
+	margin-top: 25px;
+	margin-right: 10px;
+	float: left;
+}
+.instagram
+{
+	height: 19px;
+	margin-top: 28px;
+	margin-right: 10px;
 	float: left;
 }
 .Cash
@@ -101,6 +143,7 @@
 	height: 30px;
 	margin: 20px;
 	border: 0;
+	border-radius: 3px;
 	float: left;
 	background: #ffffff;
 	color: #c3b99a;
@@ -121,32 +164,6 @@
 }
 .search_icon { float: right; height: 30px; margin: -10px 0px 75px 0px}
 
-/* Start Navigation bar */ 
-.house
-{
-	height: 70px;
-	margin-left: 50px;
-	float: left;
-}
-nav{ background-color: #fbf2d3; height: 75px; }
-ul {
-    overflow: hidden;
-    margin: 0px 35px;
-    font-family: Arial ;
-    font-weight: bold;
-    line-height: 45px;
-}
-li  
-{
-	float: left;
-    display: block;
-    color: #c3b99a;
-    text-align: center;
-    padding: 14px 30px;
-    font-size: 15px;
-}
-li:hover { background-color: #111111; }
-/* //////////////////////////////////////////////// */
 
 .container 
 {
@@ -155,31 +172,106 @@ li:hover { background-color: #111111; }
 }
 .welcome_img 
 {
-	width: 70%;
+	width: 80%;
 	display : block;
-	margin: 20px 30px 50px 190px;
+	margin: 20px 30px 50px 130px;
 }
 .childish
 {
-	width: 70%;
-	height: 50px;
-	background: #5fb574;
-	position: relative;
+	width: 80%;
+	height: 70px;
+	top: 90.9%;
+	left: 9.7%;
+	background: #e53030;
+	position: absolute;
+	border-radius: 4px;
+}
+.bottom
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.dot 
+{
+    height: 13px;
+    width: 13px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1px;
+}
+.fill { background-color: #ffffff; }
+.available
+{
+	margin: 25px 0 0 300px;
+	color: white;
+	font-size: 19px;
+	font-family: Perpetua;
+}
+.purchase
+{
+	background: white;
+	margin: -30px 20px 0 400px;
+	color: #e53030;
+}
+.comman
+{
+	width: 80px;
+	height: 40px;
+	position: absolute;
+	border: 0;
+	border-radius: 4px;
+	font-size: 15px;
+	font-family: Perpetua;
+	text-transform: uppercase;
+}
+.purchase2
+{
+	background: #e53030;
+	margin: -98px 20px 10px 550px;
+	color: white;
 }
 
+/* //////////////////////////////////////////////// */
+
+.feature
+{
+	font-family: Perpetua;
+	text-transform: uppercase;
+	color: #cac9c9;
+	margin-left: 130px;
+	margin-top: -5px;
+	float: left;
+}
+.line
+{
+	width: 72.5%;
+	height: 2px;
+	background: #f4f2f9;
+	margin-left: 230px;
+	margin-bottom: 2px;
+}
 .more_info 
 {
 	background-color: #121212;
 	font-family: Arial;
-	height: 250px;
+	height: 270px;
 	display: flex;
 }
 .about_us 
 {
+	width: 250px;
 	padding: 40px 20px ;
-	margin: 0px 30px 20px 60px;
-
+	margin: 0px 0px 20px 40px;
 }
+.about_us2
+{
+	width: 180px;
+	padding: 40px 20px ;
+	margin: 0px 30px 20px 40px;
+}
+.about_us p { color: white;   color: #414141;}
 #about { color: #c2c2c2; font-size: 25px;}
 #info 
 { 
@@ -187,12 +279,16 @@ li:hover { background-color: #111111; }
 	color: #414141;
 	line-height: 3px;
 }
-
+/* //////////////////////////////////////////////// */
+/* Start Footer */
 footer 
 {
-	background-color: #000000;
-	color: #505050;
+	background-color: #4b4b4b;
+	color: #ffffff;
 	padding: 20px;
 	height: 60px;
 	font-family: Arial;
 }
+.foot_left { float: left; margin: 0px 50px 20px ;}
+.foot_right { float: right; margin: 0px 80px; }
+/* End Footer */
