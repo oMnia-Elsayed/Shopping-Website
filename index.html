@@ -24,6 +24,7 @@
 					<h5 class="component">my account </h5>
 					<h5 class="component">shopping cart </h5>
 					<h5 class="component">checkout </h5>
+					<img class="basket" src="images/basket.png" alt="Message image">
 				</div>
 				
 			</section>
@@ -34,9 +35,18 @@
 		<!-- Start The Navigation bar -->
 		<img class="house" src="images/house_logo.png" alt="Message image">	
 		<nav>
-			<ul>
+			<ul class="dropdown">
 				<li>Desktops</li>
-				<li>Laptops & Notebooks</li>
+				<li class="dropdown">
+				    <a class="dropbtn">Laptops & Notebooks</a>
+				    <div class="dropdown-content">
+				        <a href="#">Sony(8)</a>
+					    <a href="#">Android(9)</a>
+					    <a href="#">Apple(8)</a>
+					    <a href="#">Acer(50)</a>
+					    <a href="#">HP(70)</a>
+				    </div>
+				 </li>
 				<li>Components</li>
 				<li>Tablets</li>
 				<li>Software</li>
@@ -55,6 +65,9 @@
 			</section>
 			<select class="Cash">
 				<option value="0">Doller</option>
+				<option value="1">Pound</option>
+				<option value="2">Euro</option>
+				<option value="3">Rupee</option>
 			</select>
 			<div class="search"> Enter Search Keyword
 				<img class="search_icon" src="images/search-logo.png" alt="Message image">

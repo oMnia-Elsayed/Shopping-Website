@@ -7,7 +7,6 @@
 }
 .clear { clear: both; }
 /* End Global */ 
- 
 /* //////////////////////////////////////////////// */
 
 /* Start Header */
@@ -70,6 +69,16 @@
 	float: left;
 	text-transform: uppercase;
 }
+.basket
+{
+	height: 35px; 
+	margin: -10px 10px;
+	
+	float: left;
+}
+
+/* End Header */ 
+/* ////////////////////////////////////////////////////////////////// */
 
 /* Start Navigation bar */ 
 .house
@@ -90,12 +99,30 @@ ul {
 li  
 {
 	float: left;
-    display: block;
+    display: inline-block;
     color: #4d0c29;
     text-align: center;
     padding: 14px 28px;
     font-size: 15px;
 }
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f0dee4;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+	color: #4d0c29;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
 /* //////////////////////////////////////////////// */
 
 .bar
@@ -427,3 +454,13 @@ footer
 .foot_left { float: left; margin: 0px 50px 20px ;}
 .foot_right { float: right; margin: 0px 80px; }
 /* End Footer */
+
+/* ///////////////////////////////////////////////////////////////// */
+
+/* Start hover */
+.component:hover { color: #4d0c29; }
+
+.dropdown-content a:hover {background-color: #f8f1f2; }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
