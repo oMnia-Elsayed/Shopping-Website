@@ -28,7 +28,7 @@
 {
 	width: 100%;
 	height: 80px;
-	background-color: #e53030;
+	background-color: #c584a7;
 	color: #FFFFFF;
 	position: relative;
 }
@@ -79,7 +79,7 @@
 	margin-right: -35px;
 	float: left;
 }
-nav{ background-color: #fbf2d3; height: 75px; }
+nav{ background-color: #f0dee4; height: 75px; }
 ul {
     overflow: hidden;
     margin: 0px 40px;
@@ -91,7 +91,7 @@ li
 {
 	float: left;
     display: block;
-    color: #c3b99a;
+    color: #4d0c29;
     text-align: center;
     padding: 14px 28px;
     font-size: 15px;
@@ -104,8 +104,8 @@ li
 	height: 75px;
 	font-size: 15px;
 	line-height: 75px;
-	background-color: #f9f9f9;
-	color: #c3b99a;
+	background-color: #f8f1f2;
+	color: #4d0c29;
 	position: relative;
 }
 .welcome
@@ -146,7 +146,7 @@ li
 	border-radius: 3px;
 	float: left;
 	background: #ffffff;
-	color: #c3b99a;
+	color: #4d0c29;
 }
 .search
 {
@@ -157,15 +157,13 @@ li
 	padding: 10px;
 	border-radius: 5px;
 	line-height: 10px;
-	color: #c3b99a; 
+	color: #4d0c29; 
 	font-family: Segoe Print ;
 	font-size: 13px;
 	float: left;
 }
 .search_icon { float: right; height: 30px; margin: -10px 0px 75px 0px}
-
-
-.container 
+.container
 {
     position: relative;
     text-align: center;  
@@ -180,9 +178,9 @@ li
 {
 	width: 80%;
 	height: 70px;
-	top: 90.9%;
+	top: 93.9%;
 	left: 9.7%;
-	background: #e53030;
+	background: #4d0c29;
 	position: absolute;
 	border-radius: 4px;
 }
@@ -196,24 +194,24 @@ li
 {
     height: 13px;
     width: 13px;
-    border: 2px solid #ffffff;
+    border: 2px solid #e7cb9a;
     border-radius: 50%;
     display: inline-block;
     margin: 1px;
 }
-.fill { background-color: #ffffff; }
+.fill { background-color: #e7cb9a; }
 .available
 {
 	margin: 25px 0 0 300px;
-	color: white;
+	color: #e7cb9a;
 	font-size: 19px;
 	font-family: Perpetua;
 }
 .purchase
 {
-	background: white;
+	background: #9f8f68;
 	margin: -30px 20px 0 400px;
-	color: #e53030;
+	color: #4d0c29;
 }
 .comman
 {
@@ -228,7 +226,7 @@ li
 }
 .purchase2
 {
-	background: #e53030;
+	background: #4d0c29;
 	margin: -98px 20px 10px 550px;
 	color: white;
 }
@@ -239,7 +237,7 @@ li
 {
 	font-family: Perpetua;
 	text-transform: uppercase;
-	color: #cac9c9;
+	color: #9f8f68;
 	margin-left: 130px;
 	margin-top: -5px;
 	float: left;
@@ -248,35 +246,172 @@ li
 {
 	width: 72.5%;
 	height: 2px;
-	background: #f4f2f9;
+	background: #9f8f68;
 	margin-left: 230px;
 	margin-bottom: 2px;
 }
-.more_info 
+.brands
+{
+	width: 250px;
+	height: 200px;
+	border-radius: 5px;
+	margin: 10px 10px 0px 60px;
+	float: left;
+}
+.logo { margin-left: 100px; }
+.brand_photo { width: 60%; }
+.top { margin-top: 20px; }
+/* //////////////////////////////////////////////// */
+
+.package
+{
+	padding: 5px;
+	margin: 20px 0;
+}
+.photo
+{
+	background-color: #f4ebcd;
+	width: 250px;
+	height: 300px;
+	border-radius: 3px;
+	margin-left: 25px;
+	display: flex;
+	display: inline-block;
+}
+.word_photo
+{
+	position: relative;
+}
+.wide { margin-left: 120px; }
+.movie_photo
+{
+	width: 95%;
+	height: 205px;
+	padding: 10px 0px 5px 15px;
+	border-radius: 5px solid #f4ebcd;
+}
+.compare
+{
+	background: #9f8f68;
+	color: #4d0c29;
+	width: 140px;
+	height: 40px;
+	left: 20%;
+	top: 20%;
+	margin: 8px 15px;
+	border: 0;
+	border-radius: 2px;
+	font-size: 15px;
+	font-family: Perpetua;
+	text-transform: uppercase;
+	position: absolute;
+}
+.wish
+{
+	background: #9f8f68;
+	color: #4d0c29;
+	width: 140px;
+	height: 40px;
+	left: 20%;
+	top: 40%;
+	margin: 8px 15px;
+	border: 0;
+	border-radius: 2px;
+	font-size: 15px;
+	font-family: Perpetua;
+	text-transform: uppercase;
+	position: absolute;
+}
+.comment { margin: 5px 5px 5px 18px; color: #4d0c29;}
+.cart
+{
+	background: #9f8f68;
+	color: #4d0c29;
+	width: 120px;
+	height: 40px;
+	margin: 8px 15px;
+	border: 0;
+	border-radius: 4px;
+	font-size: 15px;
+	font-family: Perpetua;
+	text-transform: uppercase;
+}
+.relate
+{
+	width: 15px;
+	height: 40px;
+	background: #9f8f68;
+	color: #4d0c29;
+	margin-top: -48px;
+	padding: 0 3px;
+	line-height: 40px;
+	border-radius: 4px;
+	float: left;
+}
+.coin { margin-left: 180px; }
+.price1 {margin-left: 195px;}
+.price2 {margin-left: 210px;}
+
+.num 
+{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-left: 130px;
+	margin-bottom: 30px;
+}
+.num > div 
+{
+	width: 30px; 
+	line-height: 30px;
+	text-align: center;
+	margin: 10px 8px;
+	border-radius: 2px;
+}
+.one {  background-color: #4d0c29; color: #9f8f68; }
+.two {  background-color: #9f8f68; color: #4d0c29; }
+/* //////////////////////////////////////////////// */
+
+.suspend
+{
+	background-color: #f4ebcd;
+	font-family: Arial;
+	height: 210px;
+	display: flex;
+}
+.sed 
+{
+	width: 450px;
+	padding: 40px 30px ;
+	margin: 0px 0px 20px 0px;
+}
+.house2
+{
+	height: 70px;
+	margin-top: -20px;
+	float: left;
+}
+.about_us
 {
 	background-color: #121212;
 	font-family: Arial;
 	height: 270px;
 	display: flex;
 }
-.about_us 
+.aboutus
 {
 	width: 250px;
-	padding: 40px 20px ;
-	margin: 0px 0px 20px 40px;
-}
-.about_us2
-{
-	width: 180px;
-	padding: 40px 20px ;
+	padding: 40px 10px ;
 	margin: 0px 30px 20px 40px;
 }
-.about_us p { color: white;   color: #414141;}
-#about { color: #c2c2c2; font-size: 25px;}
+
+.sed p { margin-left: 80px; margin-top: -20px;  color: #9f8f68;}
+.aboutus p { margin-top: 10px;  color: #9f8f68; }
+#about { color: #f4ebcd; font-size: 20px;}
+#suspendisse { color: #121212; font-size: 20px;}
 #info 
 { 
 	margin: 20px 0px 0px 0px ; 
-	color: #414141;
+	color: #9f8f68;
 	line-height: 3px;
 }
 /* //////////////////////////////////////////////// */
@@ -284,7 +419,7 @@ li
 footer 
 {
 	background-color: #4b4b4b;
-	color: #ffffff;
+	color: #9f8f68;
 	padding: 20px;
 	height: 60px;
 	font-family: Arial;
