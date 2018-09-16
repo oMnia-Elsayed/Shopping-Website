@@ -1,10 +1,11 @@
 /* Start Global */
- *
+ * , html, body
  {
  	padding: 0;
  	margin: 0;	
  	box-sizing: border-box ;		
 }
+
 .clear { clear: both; }
 /* End Global */ 
 /* //////////////////////////////////////////////// */
@@ -188,8 +189,10 @@ li.dropdown {
 	font-family: Segoe Print ;
 	font-size: 13px;
 	float: left;
+	position: absolute;
 }
-.search_icon { float: right; height: 30px; margin: -10px 0px 75px 0px}
+
+.search_icon { height: 30px; margin: 20px 10px 5px 280px; position: absolute;}
 .container
 {
     position: relative;
@@ -277,17 +280,7 @@ li.dropdown {
 	margin-left: 230px;
 	margin-bottom: 2px;
 }
-.brands
-{
-	width: 250px;
-	height: 200px;
-	border-radius: 5px;
-	margin: 10px 10px 0px 60px;
-	float: left;
-}
-.logo { margin-left: 100px; }
-.brand_photo { width: 60%; }
-.top { margin-top: 20px; }
+
 /* //////////////////////////////////////////////// */
 
 .package
@@ -372,12 +365,11 @@ li.dropdown {
 	margin-top: -48px;
 	padding: 0 3px;
 	line-height: 40px;
-	border-radius: 4px;
 	float: left;
 }
-.coin { margin-left: 180px; }
+.coin { margin-left: 180px; border-radius: 4px 0 0 4px;}
 .price1 {margin-left: 195px;}
-.price2 {margin-left: 210px;}
+.price2 {margin-left: 210px; border-radius: 0 4px 4px 0;}
 
 .num 
 {
@@ -459,7 +451,9 @@ footer
 
 /* Start hover */
 .component:hover { color: #4d0c29; }
-
+.welcome:hover , li:hover { color: #9f8f68; }
+.one:hover { background-color: #9f8f68; color: #4d0c29; }
+.two:hover { background-color: #4d0c29; color: #9f8f68; }
 .dropdown-content a:hover {background-color: #f8f1f2; }
 .dropdown:hover .dropdown-content {
     display: block;
