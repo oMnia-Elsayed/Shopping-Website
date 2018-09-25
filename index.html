@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="buying anything you can imagne"> 
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <style type="text/css">
+    .slider {
+        width: 70%;
+        margin: 100px auto;
+    }
+    .slick-slide {
+      margin: 0px 40px;
+    }
+    .slick-slide img {
+      width: 120%;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: #9f8f68;
+    }
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    .slick-active {
+      opacity: .5;
+    }
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+  <link rel="stylesheet" href="CSS/STYLE.css"> 
+
+</head>
+<body>
+
+<div class="super_container">
+  <!-- Header -->
+    <header class="header">
+      <!-- Top Bar -->  
+      <section class="top_bar">
+        <img class="sword" src="images/sward.png" alt="Message image"> 
+        <h3 class="bonfire">BonFire</h3>
+        <h5 class="lights">so turn the lights out</h5>
+        <div class="wishlist">
+          <h5 class="component">wish list (0) </h5>
+          <h5 class="component">my account </h5>
+          <h5 class="component">shopping cart </h5>
+          <h5 class="component">checkout </h5>
+          <img class="basket" src="images/basket.png" alt="Message image">
+        </div>
+        
+      </section>
+    </header>
+    <!-- End Header -->
+    <!-- ********************************************************************************* -->
+<!-- Start The Navigation bar -->
+    <img class="house" src="images/house_logo.png" alt="Message image"> 
+    <nav>
+      <ul>
+        <li>Desktops</li>
+        <li class="dropdown">
+            <a onclick="myFunction" class="dropbtn">Laptops & Notebooks</a>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Sony(8)</a>
+              <a href="#">Android(9)</a>
+              <a href="#">Apple(8)</a>
+              <a href="#">Acer(50)</a>
+              <a href="#">HP(70)</a>
+            </div>
+         </li>
+        <li>Components</li>
+        <li>Tablets</li>
+        <li>Software</li>
+        <li>Phones & PDAs</li>
+        <li>Cameras</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    
+    <section class="bar">
+      <h4 class="welcome">Welcome our visitor to our Website</h4> 
+      <section class="contact">
+        <img class="left wifi" src="images/wifi-logo.png" alt="Message image">
+        <img class="facebook" src="images/facebook.png" alt="Message image">
+        <img class="instagram" src="images/instagram.png" alt="Message image">
+      </section>
+      <select class="Cash">
+        <option value="0">Doller</option>
+        <option value="1">Pound</option>
+        <option value="2">Euro</option>
+        <option value="3">Rupee</option>
+      </select>
+      <div > 
+        <input type="text" class="search" id="fname" name="firstname" placeholder="Your name..">
+        <img class="search_icon" src="images/search-logo.png" alt="Message image">
+      </div>
+    </section>
+  <!-- End The Navigation bar -->
+  <!-- ********************************************************************************* -->
+<!-- Start The body of our website -->
+    <section class="container">
+      <img class="welcome_img" src="images/first_img.jpg" alt="Welcome Image">
+      <div class="childish">
+        <div class="bottom">
+          <span class="dot fill"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <h3 class="available">Childish Gambino - Camp Now Available For just $9.99 </h3>
+        <button class="comman purchase"> purchase</button>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="feature">FEATURED</h3>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </section>
+
+    <!-- Start Clear Div -->
+    <div class="clear" ></div>
+    <!-- End Clear Div -->
+
+    <!-- =================================================== -->
+    <section class="package">
+      <section class="photo wide">
+        <section class="word_photo">
+          <img class="movie_photo" src="images/product1.jpg" alt="Application Icon">
+          <h5 class="comment">Black & Gray Bag</h5>
+          <button class="cart"> Add to Cart</button>
+          <div class="relate coin">$</div>
+          <div class="relate price1">3</div>
+          <div class="relate price2">2</div>
+        </section>
+      </section>
+
+      <section class="photo">
+        <section class="word_photo">
+          <img class="movie_photo" src="images/product2.jpg" alt="Application Icon">
+          <h5 class="comment">New Shoe</h5>
+          <button class="cart"> Add to Cart</button>
+          <div class="relate coin">$</div>
+          <div class="relate price1">4</div>
+          <div class="relate price2">5</div>
+        </section>
+      </section>
+
+      <section class="photo">
+        <section class="word_photo">
+          <img class="movie_photo" src="images/product3.jpg" alt="Application Icon">
+          <h5 class="comment">Dark Red T-Shirt</h5>
+          <button class="cart"> Add to Cart</button>
+          <div class="relate coin">$</div>
+          <div class="relate price1">3</div>
+          <div class="relate price2">0</div>
+        </section>
+      </section>
+
+      <section class="photo">
+        <section class="word_photo">
+          <img class="movie_photo" src="images/product4.jpg" alt="Application Icon">
+          <h5 class="comment">Beatiful outfit</h5>
+          <button class="cart"> Add to Cart</button>
+          <div class="relate coin">$</div>
+          <div class="relate price1">9</div>
+          <div class="relate price2">0</div>
+        </section>
+      </section>
+    </section>
+    
+    <!-- =================================================== -->
+    <div class="clear" ></div>
+    
+    <section>
+      <h3 class="feature">BRANDS</h3>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </section>
+
+    <div class="clear" ></div> 
+
+  <section class="center slider">
+    <div>
+      <img src="images/apple-logo.jpg">
+    </div>
+    <div>
+      <img src="images/boss-logo.jpg">
+    </div>
+    <div>
+      <img src="images/chanel.jpg">
+    </div>
+    <div>
+      <img src="images/addidas.jpg">
+    </div>
+    <div>
+      <img src="images/dkny.png">
+    </div>
+    <div>
+      <img src="images/Forever21.png">
+    </div>
+    <div>
+      <img src="images/nike.png">
+    </div>
+    <div>
+      <img src="images/puma.png">
+    </div>
+    <div>
+      <img src="images/addidas.jpg">
+    </div>
+  </section>
+
+<div class="clear" ></div>
+    <section>
+      <h3 class="feature">LATEST</h3>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </section>
+
+    <section class="package">
+      <section class="photo wide">
+        <section class="word_photo">
+          <img class="movie_photo" src="images/product1.jpg" alt="Application Icon">
+          <h5 class="comment">Black & Gray Bag</h5>
+          <button class="cart"> Add to Cart</button>
+          <div class="relate coin">$</div>
+          <div class="relate price1">3</div>
+          <div class="relate price2">2</div>
+        </section>
+      </section>
+
+      <section class="photo">
+        <section class="word_photo">
+          <img class="movie_photo" src="images/product2.jpg" alt="Application Icon">
+          <button class="compare"> Add to Compare</button>
+          <button class="wish"> Add to Wishlist</button>
+          <h5 class="comment">New Shoe</h5>
+          <button class="cart"> Add to Cart</button>
+          <div class="relate coin">$</div>
+          <div class="relate price1">4</div>
+          <div class="relate price2">5</div>
+        </section>
+      </section>
+
+      <section class="photo">
+        <section class="word_photo">
+          <img class="movie_photo" src="images/product3.jpg" alt="Application Icon">
+          <h5 class="comment">Dark Red T-Shirt</h5>
+          <button class="cart"> Add to Cart</button>
+          <div class="relate coin">$</div>
+          <div class="relate price1">3</div>
+          <div class="relate price2">0</div>
+        </section>
+      </section>
+
+      <section class="photo">
+        <section class="word_photo">
+          <img class="movie_photo" src="images/product4.jpg" alt="Application Icon">
+          <h5 class="comment">Beatiful outfit</h5>
+          <button class="cart"> Add to Cart</button>
+          <div class="relate coin">$</div>
+          <div class="relate price1">9</div>
+          <div class="relate price2">0</div>
+        </section>
+      </section>
+    </section>
+
+  <section class="num">
+      <div class="two">&#8826;</div>
+      <div class="one">1</div>
+      <div class="two">2</div>
+      <div class="two">3</div>
+      <div class="two">4</div>
+      <div class="two">5</div>
+      <div class="two">6</div>
+      <div class="two">7</div>
+      <div class="two">8</div>
+      <div class="two">9</div>
+      <div class="two">&#8827;</div>
+    </section>
+  </section>
+
+  <div class="clear" ></div>
+  <!-- End The First Row of Applications -->
+    <section class="suspend">
+      <!-- SUSPENDISSE Section -->
+      <section class="sed">
+        <img class="house2" src="images/house_logo.png" alt="Message image">  
+        <div id = "suspendisse">
+          <h3>SUSPENDISSE SED</h3>
+        </div>
+        <div class="clear" ></div>
+        <p>We compiled stores to shop based on quality, value for money and customer service experience. 
+        Whether you’re looking to shop for beauty products, new furniture or a television.</p> 
+      </section>
+      <!-- ============================================ -->
+      <section class="sed">
+        <img class="house2" src="images/house_logo.png" alt="Message image">  
+        <div id = "suspendisse">
+          <h3>SUSPENDISSE SED</h3>
+        </div>
+        <div class="clear" ></div>
+        <p>We compiled stores to shop based on quality, value for money and customer service experience. 
+        Whether you’re looking to shop for beauty products, new furniture or a television.</p> 
+      </section>
+      <!-- ======================================== -->
+      <section class="sed">
+        <img class="house2" src="images/house_logo.png" alt="Message image">  
+        <div id = "suspendisse">
+          <h3>SUSPENDISSE SED</h3>
+        </div>
+        <div class="clear" ></div>
+        <p>We compiled stores to shop based on quality, value for money and customer service experience. 
+        Whether you’re looking to shop for beauty products, new furniture or a television.</p> 
+      </section>
+    </section>
+    <!-- End SUSPENDISSE section -->
+    <!-- ********************************************************************************* -->
+
+    <!-- Start Clear Div -->
+    <div class="clear" ></div>
+    <!-- End Clear Div -->
+
+    <!-- ======================================================== -->
+    <section class="about_us">
+      <!-- About Us Section -->
+      <section class="aboutus wide">
+        <div id = "about">
+          <h3>About US</h3>
+        </div>
+        <p>We compiled stores to shop based on quality, value for money and customer service experience. 
+        Whether you’re looking to shop for beauty products, new furniture or a television.</p> 
+      </section>
+      <!-- ============================================ -->
+
+      <!--Start Popular Topics Section -->
+      <section class="aboutus">
+        <div id = "about">
+          <h3>INFORMATION</h3>
+        </div>
+        <h5 id = "info">About Us </h5>
+        <h5 id = "info">Delivery Information</h5>
+        <h5 id = "info">Privacy Policy </h5>
+        <h5 id = "info">Terms & Conditions</h5>
+      </section>
+      <!-- ======================================== -->
+      <section class="aboutus">
+        <div id = "about">
+          <h3>Customer Service </h3>
+        </div>
+        <h5 id = "info">Contact Us </h5>
+        <h5 id = "info">Returns</h5>
+        <h5 id = "info">Site Map </h5>
+      </section>
+
+      <section class="aboutus">
+        <div id = "about">
+          <h3>My Account</h3>
+        </div>
+        <h5 id = "info"> My Account</h5>
+        <h5 id = "info">Order History</h5>
+        <h5 id = "info">Wish List </h5>
+        <h5 id = "info">Newsletter</h5>
+      </section>
+
+      <section class="aboutus">
+        <div id = "about">
+          <h3>Extras</h3>
+        </div>
+        <h5 id = "info">Brands</h5>
+        <h5 id = "info">Gift Vouchers</h5>
+        <h5 id = "info">Affiliates </h5>
+        <h5 id = "info">Specials</h5>
+      </section>
+    </section>
+    <!-- End The body of our website -->
+    <!-- ********************************************************************************* -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="foot_left">  &copy; Copyright 2018 , BonFire , All Rights Reseved . </div>
+      <div class="foot_right"> Designed By oMnia Elsayed (omniamorsi2020@gmail.com) .</div>
+      <div class="clear" ></div>
+    </footer>
+    <!-- End Footer -->
+    <!-- ********************************************************************************* -->
+  </div>
+  
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javacode.js"></script>
+  <script type="text/javascript">
+    
+  </script>
+
+</body>
+</html>
